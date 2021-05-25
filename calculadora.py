@@ -7,8 +7,8 @@ def divisao (a, b):
 def multiplicacao (a, b):
   pass
 
-def subtracao (a, b):
-  pass
+def sub (a, b):
+  return a - b
 
 def soma (a, b):
   return a + b
@@ -20,7 +20,7 @@ operacao = input("+: Soma\n-: Subtração\n*: Multiplicação\n/: Divisão\n**: 
 if operacao == '+':
   resultado = soma(a, b)
 elif operacao == '-':
-  resultado = a - b
+  resultado = sub(a, b)
 elif operacao == '*':
   resultado = a * b
 elif operacao == '/':
