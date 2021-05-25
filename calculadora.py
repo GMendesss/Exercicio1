@@ -4,8 +4,8 @@ def potencia (a, b):
 def divisao (a, b):
   pass
 
-def multiplicacao (a, b):
-  pass
+def mult (a, b):
+  return a * b
 
 def sub (a, b):
   return a - b
@@ -22,7 +22,7 @@ if operacao == '+':
 elif operacao == '-':
   resultado = sub(a, b)
 elif operacao == '*':
-  resultado = a * b
+  resultado = mult(a, b)
 elif operacao == '/':
   resultado = a // b
 else:
