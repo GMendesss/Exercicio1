@@ -1,8 +1,8 @@
 def potencia (a, b):
   pass
 
-def divisao (a, b):
-  pass
+def div (a, b):
+  return a // b
 
 def mult (a, b):
   return a * b
@@ -24,7 +24,7 @@ elif operacao == '-':
 elif operacao == '*':
   resultado = mult(a, b)
 elif operacao == '/':
-  resultado = a // b
+  resultado = div(a, b)
 else:
   resultado = a ** b
 print (resultado)
